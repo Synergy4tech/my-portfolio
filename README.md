@@ -2,7 +2,7 @@
 
 ![Preview](/src/assets/.github/Preview.png)
 
-[Clique aqui para acessar]()
+[Clique aqui para acessar](https://Synergy4tech.github.io/my-portfolio)
 
 ## Tecnologias:
 - React 
