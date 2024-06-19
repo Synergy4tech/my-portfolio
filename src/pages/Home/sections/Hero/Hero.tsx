@@ -1,6 +1,5 @@
 import { Box, Container, Grid, Typography, styled } from "@mui/material"
 import Avatar from "..//../../../assets/images/avatar.png"
-import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import Background from "../../../../components/animatedbackrground/Background";
@@ -53,14 +52,7 @@ const Hero = () => {
 
                             <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                                    <StyledButton onClick={() => console.log("download")}>
-                                        <DownloadIcon/>
-                                        
-                                         <Typography>DOWNLOAD CV</Typography>
-                                    </StyledButton>
-                                </Grid>
-                                <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                                    <StyledButton onClick={() => console.log("CONTATE")}>
+                                    <StyledButton onClick={() => window.location.href = "mailto:synergyivtech2@gmail.com"}>
                                         <EmailIcon/>
                                        <Typography> CONTACT ME</Typography>
                                     </StyledButton>
