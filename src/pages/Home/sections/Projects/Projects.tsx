@@ -16,7 +16,7 @@ const Projects = () => {
     <>
       <StyledProjects id="projects">
         <Container maxWidth="lg">
-            <Typography color="#fff" variant="h3" textAlign="center" pb={2} pt={4}>Project</Typography>
+            <Typography color="#fff" variant="h3" textAlign="center" pb={2} pt={4}>Projetos</Typography>
             <ProjectBoxs/>
         </Container>
       </StyledProjects>

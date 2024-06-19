@@ -80,9 +80,9 @@ const NaviBar: React.FC = () => {
                         </IconButton>
                     </div>
                     <Box sx={{ display: { xs: 'none', sm: 'flex' } }}>
-                        <MenuItem onClick={() => scrollToSection('about')}>About</MenuItem>
+                        <MenuItem onClick={() => scrollToSection('about')}>Sobre nós</MenuItem>
                         <MenuItem onClick={() => scrollToSection('skills')}>Skills</MenuItem>
-                        <MenuItem onClick={() => scrollToSection('projects')}>Projects</MenuItem>
+                        <MenuItem onClick={() => scrollToSection('projects')}>Projetos</MenuItem>
                     </Box>
                 </StyledToolbar>
             </AppBar>

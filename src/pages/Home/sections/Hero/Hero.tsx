@@ -11,8 +11,7 @@ import Background from "../../../../components/animatedbackrground/Background";
 
 const Hero = () => {
     const StyledHero = styled("div")(({theme}) => ({
-        
-     //  backgroundColor: theme.palette.primary.main,
+        paddingBottom: "20px",
         height: "100vh",
         display: "flex",
         alignItems: "center",
@@ -54,7 +53,7 @@ const Hero = () => {
                                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
                                     <StyledButton onClick={() => window.location.href = "mailto:synergyivtech2@gmail.com"}>
                                         <EmailIcon/>
-                                       <Typography> CONTACT ME</Typography>
+                                       <Typography> CONTATE-ME</Typography>
                                     </StyledButton>
                                 </Grid>
                             </Grid>

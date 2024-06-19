@@ -43,7 +43,7 @@ const About = () => {
         <>
             <StyledAbout id="about">
                 <Container maxWidth="lg" >
-                    <Typography color="primary" variant="h3" textAlign="center" pb={2} pt={4}>About us</Typography>
+                    <Typography color="primary" variant="h3" textAlign="center" pb={2} pt={4}>Sobre nós</Typography>
                     
                     <motion.div
                         initial="hidden"
@@ -77,7 +77,7 @@ const About = () => {
                     </motion.div>
                    
                     <Typography color="primary"  align="justify" pb={2} fontSize={16}>
-                    We are a diverse and dynamic team, consisting of four determined students ready to conquer the market. Among us, there are two engineering students, one data scientist, and one student specializing in people and marketing management. We combine our skills and passions to chart innovative paths. Our goal is to grow and evolve continuously, seeking challenges that drive us to achieve exceptional results. We are ready to tackle market demands and contribute significantly to its development.
+                    Somos uma equipe diversa e dinâmica, composta por quatro estudantes determinados a conquistar o mercado. Entre nós, há dois estudantes de engenharia, um estudante de analise de desenvolvimento de sistemas e um estudante especializado em gestão de pessoas e marketing. Combinamos nossas habilidades e paixões para traçar caminhos inovadores. Nosso objetivo é crescer e evoluir continuamente, buscando desafios que nos impulsionem a alcançar resultados excepcionais. Estamos prontos para enfrentar as demandas do mercado e contribuir significativamente para o seu desenvolvimento.
                     </Typography>
 
                     <Divider/>
