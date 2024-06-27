@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import { AppBar, Drawer, IconButton, List, ListItem, ListItemText, Toolbar, styled, MenuItem, Box } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 
+
+
 const NaviBar: React.FC = () => {
     const [drawerOpen, setDrawerOpen] = useState(false);
 
+    
     const StyledToolbar = styled(Toolbar)(() => ({
         display: "flex",
         justifyContent: "space-between",
@@ -64,10 +67,14 @@ const NaviBar: React.FC = () => {
         </div>
     );
 
+
+
+
     return (
         <>
             <AppBar position="absolute">
                 <StyledToolbar>
+                   
                     <div>
                         <IconButton
                             edge="start"
@@ -80,9 +87,24 @@ const NaviBar: React.FC = () => {
                         </IconButton>
                     </div>
                     <Box sx={{ display: { xs: 'none', sm: 'flex' } }}>
-                        <MenuItem onClick={() => scrollToSection('about')}>Sobre nós</MenuItem>
-                        <MenuItem onClick={() => scrollToSection('skills')}>Skills</MenuItem>
-                        <MenuItem onClick={() => scrollToSection('projects')}>Projetos</MenuItem>
+                        <MenuItem
+                            onClick={() => scrollToSection('about')}
+                            sx={{ '&:hover': { color: '#548C6C' } }}
+                        >
+                            Sobre mim
+                        </MenuItem>
+                        <MenuItem
+                            onClick={() => scrollToSection('skills')}
+                            sx={{ '&:hover': { color: '#548C6C' } }}
+                        >
+                            Skills
+                        </MenuItem>
+                        <MenuItem
+                            onClick={() => scrollToSection('projects')}
+                            sx={{ '&:hover': { color: '#548C6C' } }}
+                        >Projetos
+                            
+                        </MenuItem>
                     </Box>
                 </StyledToolbar>
             </AppBar>
